@@ -1,0 +1,55 @@
+$brandColor: #d20962;
+
+body {
+    font-family: system-ui;
+    background: linear-gradient(to top,
+    $brandColor,
+    lighten($brandColor, 30%));
+    color: white;
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.btn {
+    border-color: Turquoise ;
+    border-width: 15px;
+    background-color: violet;
+    padding: 28px 40px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.Post__headline {
+    margin-bottom: 1rem;
+    font-family: Playfair Display,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
+    font-size: 22.78125px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+}
+
+.Post__author {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+.Post__authorIndicator {
+    font-style: italic;
+    letter-spacing: normal;
+    text-transform: lowercase;
+    display: inline-block;
+    margin-left: .25rem;
+    margin-right: .25rem;
+}
+
+.Post__author {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
